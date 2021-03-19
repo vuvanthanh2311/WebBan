@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.row-2-of-3 {
+    background-color: white;
+    height: 8vh;
+    width: 66.7%;
+    float: left;
+}
+
+.row-1-of-3 {
+    background-color: white;
+    height: 8vh;
+    width: 33.3%;
+    float: right;
+}
+
+.black {
+    color: black;
+}
+
+
+/*.................................................................
+.....................Header-navigation........................................
+...................................................................*/
+
+.header-nav {
+    height: 6vh;
+    border-bottom: 1px solid rgb(241, 237, 237);
+}
+
+
+/* .hostline {
+    margin-left: 50px;
+    line-height: 4vh;
+    float: left;
+    display: inline;
+} */
+
+.login {
+    line-height: 6vh;
+    float: right;
+    margin-right: 50px;
+}
+
+.login li {
+    font-size: 16px;
+    position: relative;
+    list-style: none;
+    display: inline;
+    margin-right: 12px;
+}
+
+.login li a {
+    text-decoration: none;
+}
+
+.login li a:hover {
+    border-bottom: 00.1px solid rgb(137, 80, 202);
+}
+
+.login li:not(:last-child):after {
+    content: "";
+    position: absolute;
+    width: 0.5px;
+    height: 12px;
+    background-color: black;
+    margin-top: 16px;
+    margin-left: 8px;
+}
+
+
+/*.................................................................
+.....................main-navigation........................................
+...................................................................*/
+
+.fixed {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+nav {
+    height: 8vh;
+}
+
+.logo {
+    margin-left: 20px;
+    width: 150px;
+    float: left;
+    display: inline;
+}
+
+.main-nav {
+    float: right;
+    line-height: 54px;
+}
+
+.main-nav li {
+    margin-right: 20px;
+    display: inline-block;
+    padding: 8px;
+    list-style: none;
+    position: relative;
+}
+
+.main-nav li a {
+    transition: all 0.2s;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.main-nav li a:hover {
+    border-bottom: 1px solid black;
+}
+
+.form-nav {
+    margin-top: 16px;
+    margin-right: 50px;
+    float: right;
+}
+
+.input-nav {
+    margin-right: 20px;
+    border-radius: 5px;
+    border: 2px solid black;
+    padding: 6px;
+    display: inline;
+}
+
+.cart-nav {
+    border-radius: 100%;
+    background-color: rgb(117, 112, 112);
+    padding: 8px;
+    padding-top: 12px;
+    padding-right: 12px;
+    display: inline;
+    transition: all 0.5s;
+}
+
+.cart-nav:hover {
+    background-color: rgb(238, 202, 42);
+}
+
+.input-search {
+    outline: none;
+    border: none;
+}
+
+.input-search:focus {
+    width: 300px;
+}
+
+.cart {
+    font-size: 20px;
+    color: white;
+}
+
+
+/*.................................................................
+.....................Dropdown........................................
+...................................................................*/
+
+.content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    top: 56px;
+    min-width: 200px;
+    z-index: 1;
+}
+
+.content a {
+    color: rgb(116, 112, 112);
+    text-align: left;
+    padding-left: 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.content a:hover {
+    background-color: #f1f1f1;
+    color: black;
+}
+
+.main-nav li:hover .content {
+    display: block;
+}
+
+
+/*.................................................................
+.....................Header........................................
+...................................................................*/
+
+.header {}
+
+.banner {
+    width: 100%;
+}
+
+
+/*.................................................................
+.....................category-section........................................
+...................................................................*/
+
+
+/* .category-section {
+    height: 50vh;
+    width: 80%;
+    background-color: blueviolet;
+    margin-left: 10%;
+} */
+
+
+/*.................................................................
+.....................newProduct-section...................................
+...................................................................*/
+
+
+/* .newProduct-section {
+    background-color: beige;
+    height: 60vh;
+    width: 80%;
+    margin-left: 10%;
+} */
+
+
+/*.................................................................
+.....................offer-section...................................
+...................................................................*/
+
+.offer-section {
+    height: 300vh;
+    width: 90%;
+    margin-left: 5%;
+    background-color: rgb(253, 249, 249);
+}
+
+
+/*.................................................................
+.....................contact-section...................................
+...................................................................*/
+
+
+/* .contact-section {
+    background-color: aqua;
+    height: 50vh;
+    width: 80%;
+    margin-left: 10%;
+} */
